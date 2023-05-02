@@ -1,0 +1,17 @@
+{
+  "name": "camera-club",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded src/scss:dist/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/scss:dist/css",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "vite": "^4.3.2"
+  }
+}
